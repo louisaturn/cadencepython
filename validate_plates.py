@@ -33,4 +33,6 @@ def checknumbers(cnf, plate):
             numbers.append(char)
     return len(numbers) == cnf['numbers']
 
-    
+cnf = input("cnf file:")
+plate = input("Plate:")
+print(validate_plates(cnf, plate))
